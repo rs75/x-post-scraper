@@ -2,6 +2,8 @@
 
 X Scraper is a Chrome extension for collecting post data directly from X profile pages. It provides a lightweight workflow for crawling visible posts, storing their metadata, and reviewing the results in a separate tab.
 
+**Available soon on the Chrome Web Store.**
+
 Created by [robaiapps](https://x.com/robaiapps)
 
 ![X Scraper Screenshot](images/xscraper.png)
