@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>X Scraper Results</title>
+  <link rel="stylesheet" type="text/css" href="results.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h1>Scraped Results</h1>
+        <p>Saved profiles and posts</p>
+      </div>
+      <button id="showAllButton" class="show-all-button">Show All Profiles</button>
+      <div class="sidebar-content" id="sidebar">
+        <!-- Profile buttons will be inserted here -->
+      </div>
+      <div class="sidebar-footer">
+        Built by <a href="https://x.com/robaiapps" target="_blank">@robaiapps</a>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="content-hero">
+        <div class="header-container">
+          <div>
+            <h2 id="profileHeader"></h2>
+          </div>
+          <div class="toggle-container">
+              <button id="textButton" class="toggle-button">Text</button>
+              <button id="jsonButton" class="toggle-button active">JSON</button>
+          </div>
+        </div>
+      </div>
+      <textarea id="resultsTextarea" readonly spellcheck="false"></textarea>
+      <div class="stats" id="statsContainer">
+        <!-- Stats will be inserted here -->
+      </div>
+      <div id="paginationContainer" class="pagination-container">
+        <!-- Pagination controls will be inserted here -->
+      </div>
+      <div class="button-container">
+        <button id="copyButton">Copy Current View</button>
+        <button id="deleteButton">Delete All Results</button>
+      </div>
+    </div>
+  </div>
+  <script src="results.js"></script>
+</body>
+</html>

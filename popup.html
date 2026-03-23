@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>X Scraper</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="popup-shell">
+    <div class="hero-card">
+      <div class="top-row">
+        <div>
+          <h1>X Scraper</h1>
+          <p class="hero-copy">Scrape and export feeds and profiles.</p>
+        </div>
+        <div class="metrics-card">
+          <span class="metrics-label">Saved</span>
+          <span class="metrics-value" id="postCounter">0</span>
+        </div>
+      </div>
+
+      <button id="crawlButton" class="primary-button">Scrape Posts</button>
+
+      <div class="settings-card">
+        <label class="setting-row">
+          <span class="setting-text">
+            <span class="setting-name">Auto scrolling</span>
+          </span>
+          <input type="checkbox" id="autoScrollCheckbox">
+        </label>
+        <label class="setting-row">
+          <span class="setting-text">
+            <span class="setting-name">Ignore reposts</span>
+          </span>
+          <input type="checkbox" id="ignoreRepostsCheckbox">
+        </label>
+      </div>
+
+      <button id="seeResultsButton" class="secondary-button">Open Results</button>
+    </div>
+
+    <div class="creator-credit">
+      Built by <a href="https://x.com/robaiapps" target="_blank">@robaiapps</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
